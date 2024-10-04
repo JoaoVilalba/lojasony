@@ -38,3 +38,7 @@ ul {
     letter-spacing: 1.5px;
 }
 
+main {
+    height: 92vh;
+    background-image: url('assets/playstation1.png');
+}
