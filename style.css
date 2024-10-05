@@ -11,8 +11,9 @@ body {
 nav {
     background-color: blueviolet;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 30px;
     height: 8vh;
 }
 
@@ -36,9 +37,32 @@ ul {
     list-style: none;
     gap: 30px;
     letter-spacing: 1.5px;
+    padding: 0 30px;
+    justify-content: space-between;
 }
 
 main {
-    height: 92vh;
-    background-image: url('assets/playstation1.png');
+    height: 100vw;
+    background-image: url('assets/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center center center; 
 }
+
+img{
+    border-radius: 15px 15px 15px 15px;
+   
+    display: flex;
+    align-items: center;
+    
+}
+
+h1 {
+    color: rgb(219, 18, 18);
+}
+
+h2 {
+    color: aqua;
+}
+
+
