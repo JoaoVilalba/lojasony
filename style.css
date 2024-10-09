@@ -92,3 +92,11 @@ img{
     width: 300px;
     height: 300px;
 }
+
+@media (max-widht: 690px) {
+    body {
+        background-color: rgb(44, 215, 96);
+        width: 94vw;
+    }
+
+}
