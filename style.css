@@ -4,7 +4,12 @@
 }
 
 body{
+    height: 92vh;
     background-image: url(assets/fundo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: center;
+    background-size: cover;
 }
 
 nav{
